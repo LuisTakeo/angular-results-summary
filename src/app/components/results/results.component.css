@@ -18,7 +18,7 @@
 
 
 .color-red{
-  background-color: hsla(0, 100%, 67%, 0.306);
+  background-color: hsla(0, 100%, 67%, 0.100);
 }
 
 .color-red > .result-type{
@@ -26,7 +26,7 @@
 }
 
 .color-yellow{
-  background-color: hsl(39, 100%, 56%, 0.306)
+  background-color: hsl(39, 100%, 56%, 0.100)
 }
 
 .color-yellow > .result-type{
@@ -34,7 +34,7 @@
 }
 
 .color-green{
-  background-color: hsl(166, 100%, 37%, 0.306)
+  background-color: hsl(166, 100%, 37%, 0.100)
 }
 
 .color-green > .result-type{
@@ -42,7 +42,7 @@
 }
 
 .color-blue{
-  background-color: hsl(234, 85%, 45%, 0.306)
+  background-color: hsl(234, 85%, 45%, 0.100)
 }
 
 .color-blue > .result-type{
