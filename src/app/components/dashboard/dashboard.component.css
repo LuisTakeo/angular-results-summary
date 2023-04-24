@@ -5,9 +5,9 @@
   max-width: 600px;
   border: hsl(221, 100%, 96%) solid 1px;
   border-radius: 15px;
-  -webkit-box-shadow: 21px 15px 50px -6px rgba(48,54,69,1);
-  -moz-box-shadow: 21px 15px 50px -6px rgba(48,54,69,1);
-  box-shadow: 21px 15px 50px -6px rgba(48,54,69,1);
+  -webkit-box-shadow: 21px 15px 50px -6px rgba(48, 54, 69, 0.358);
+  -moz-box-shadow: 21px 15px 50px -6px rgba(48, 54, 69, 0.434);
+  box-shadow: 21px 15px 50px -6px rgba(48, 54, 69, 0.336);
 }
 
 .main{
