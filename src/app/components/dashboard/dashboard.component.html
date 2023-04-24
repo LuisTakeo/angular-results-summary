@@ -1,0 +1,60 @@
+<main class="container-main">
+
+  <section class="main result color-purple">
+
+    <h2 class="result-title">Your Result</h2>
+    <app-result-value></app-result-value>
+    <h3>Great</h3>
+    <p>You scored higher than 65% of the people who have taken these tests.</p>
+
+  </section>
+
+  <section class="main summary">
+
+    <div class="summary_content">
+      <h2>Summary</h2>
+
+      <div class="summary_content-results">
+        <app-results
+          resultType="Reaction"
+          resultValue="80"
+          resultIcon="./assets/icon-reaction.svg"
+          resultIconAlt="reaction icon"
+          resultColor="color-red"
+        >
+        </app-results>
+        <app-results
+          resultType="Memory"
+          resultValue="92"
+          resultIcon="./assets/icon-memory.svg"
+          resultIconAlt="memory icon"
+          resultColor="color-yellow"
+        >
+        </app-results>
+        <app-results
+          resultType="Verbal"
+          resultValue="61"
+          resultIcon="./assets/icon-verbal.svg"
+          resultIconAlt="verbal icon"
+          resultColor="color-green"
+        >
+        </app-results>
+        <app-results
+          resultType="Visual"
+          resultValue="72"
+          resultIcon="./assets/icon-visual.svg"
+          resultIconAlt="visual icon"
+          resultColor="color-blue"
+        >
+        </app-results>
+
+      </div>
+
+      <button>Continue</button>
+    </div>
+
+
+  </section>
+
+</main>
+

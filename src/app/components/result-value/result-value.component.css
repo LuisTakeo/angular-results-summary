@@ -1,0 +1,19 @@
+.result-value{
+  width: 180px;
+  margin: 0 auto;
+  color: hsla(241, 72%, 46%, 0);
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsl(241, 81%, 54%));
+  padding: 3em 1.5em;
+  border-radius: 50%;
+}
+
+.value-big-number{
+  color: hsl(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 3em;
+
+}
+
+.value-small-number{
+  color: hsl(221, 100%, 96%);
+}
